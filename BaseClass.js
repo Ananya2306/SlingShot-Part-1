@@ -18,6 +18,7 @@ class BaseClass{
            translate(this.body.position.x, this.body.position.y);
            rotate(angle);
            rectMode(CENTER);
+           fill(255);
            rect(0,0,this.width, this.height);
            pop();
         }

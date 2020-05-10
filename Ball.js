@@ -12,7 +12,7 @@ display(){
     push();
     translate(pos.x, pos.y);
     rotate(angle);
-    fill("blue");
+    fill("purple");
     ellipseMode(RADIUS);
     circle(0, 0, this.radius); 
     pop();

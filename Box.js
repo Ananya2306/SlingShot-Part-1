@@ -11,7 +11,7 @@ class Box extends BaseClass{
         rectMode(CENTER);
         rotate(angle);
         strokeWeight(3);
-        fill(255);
+        fill("red");
         rect(0,0,this.width,this.height);
         pop();
     }

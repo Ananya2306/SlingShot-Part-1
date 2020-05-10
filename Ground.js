@@ -3,5 +3,4 @@ class Ground extends BaseClass{
       super(x,y, width, height);
       this.body.isStatic = true
     }
-  
   };  
